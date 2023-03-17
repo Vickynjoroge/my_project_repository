@@ -1,5 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header {
+    background-image: url(./images/wallpaperflare.com_wallpaper\(3\).jpg);
 }
 
 
@@ -8,14 +12,25 @@ ul {
     list-style: none;
 }
 
-ul a{
+#navbar {
     color: black;
-    display: block;
+    display: flex;
     padding: 15px;
     text-decoration: none;
+    justify-content: flex-end;
 }
 
-
+#navbar li{
+    font-size:  40px;
+    padding: 15px;
+    text-decoration: overline;
+    list-style: none;
+    color: black;
+}
+#navbar a{
+    color: blue;
+    
+}
 ul a:hover {
     color: orange;
     text-decoration: none;
@@ -28,6 +43,12 @@ a:active {
     color:blue;
 }
 
+.hero{
+    display: block;
+    padding: 10%;
+    background: #90c5cc;
+    margin: 5%;
+}
 .hero h1 {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif ;
@@ -37,7 +58,13 @@ a:active {
     line-height: 1.5;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10%;
+    justify-content: center;
 }
+.socials {
+    display: block;
+    padding-block-end: 10cap;
+    }
 hr {
     position: relative;
     top: 20px;
@@ -112,6 +139,7 @@ footer {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
 

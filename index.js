@@ -10,3 +10,14 @@ $(document).ready(function()) {
         toggleDetails("#WorkDetails"."Workicon")
 })
 }
+document.addEventListener('DOMContentLoaded', function() {
+    // code to run when the page loads
+    console.log('Page loaded!');
+  });
+  const submitButton = document.querySelector('button[type="submit"]');
+
+  submitButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    // code to run when the button is clicked
+    console.log('Button clicked!');
+  });  
